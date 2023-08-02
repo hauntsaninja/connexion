@@ -20,12 +20,12 @@ def read_version(package):
 version = read_version('connexion')
 
 install_requires = [
-    'clickclick>=1.2,<21',
-    'jsonschema>=2.5.1,<5',
-    'PyYAML>=5.1,<6',
-    'requests>=2.9.1,<3',
-    'inflection>=0.3.1,<0.6',
-    'werkzeug>=1.0,<3',
+    'clickclick>=1.2',
+    'jsonschema>=2.5.1',
+    'PyYAML>=5.1',
+    'requests>=2.9.1',
+    'inflection>=0.3.1',
+    'werkzeug>=1.0',
 ]
 
 swagger_ui_require = 'swagger-ui-bundle>=0.0.2,<0.1'
